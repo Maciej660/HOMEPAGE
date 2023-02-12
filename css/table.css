@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.table {
+    font-family: 'EB Garamond', serif;
+    border: 2px;
+    border-collapse: collapse;
+    border-radius: 10px / 8px;
+    padding: 40px;
+    margin: 50px 0;
+    max-width: 100%;
+}
+
+.table__cell {
+    border: 2px solid rgb(148, 117, 228);
+    text-align: center;
+    padding: 13px;
+    outline: 1px solid rgb(173, 173, 252);
+    box-shadow: 3px 7px 16px 0px #75A6D1;
+    padding: 23px;
+    vertical-align: middle;
+    text-shadow: #9475e4 1px 0 10px;
+}
+
+.tableCell__header {
+    border: 2px solid rgb(148, 117, 228);
+    text-align: center;
+    padding: 13px;
+    outline: 1px solid rgb(173, 173, 252);
+    box-shadow: 3px 7px 16px 0px #75A6D1;
+    padding: 23px;
+    vertical-align: middle;
+    text-shadow: #9475e4 1px 0 10px;
+    background-color: #B8B8D1;
+}

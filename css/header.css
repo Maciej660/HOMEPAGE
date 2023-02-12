@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: #f8f8f8;
+    font: 0.9em Georgia, serif;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.silverBackground {
+    background: rgb(158, 158, 183);
+
+}
+
+.header {
+    background-color: #B8B8D1;
+    color: white;
+    border-radius: 8px 10px 10px 10px;
+    font: 1.1em Georgia, serif;
+    text-shadow: 1px 2px 5px #888;
+    background: #B8B8D1;
+}
+
+.header__button {
+    text-shadow: 1px 1px 1px grey, 0 0 1em blue, 0 0 0.1em blue;
+    color: white;
+    box-shadow: inset 0px 0px 1px 2px #000000,
+        inset 3px 1px 7px 4px #022bf9;
+    height: 30px;
+    width: 130px;
+    border: #888;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.header__name {
+    color: white;
+    max-width: 999px;
+    background: #B8B8D1;
+    margin: 25px 0;
+    text-shadow: 13px 7px 18px grey;
+    border-radius: 6px 6px 6px 6px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maciej Konitz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/kontakt.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alegreya:ital@0;1&family=EB+Garamond:wght@500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body js-body">
+    <header>
+        <nav id="navigation" class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#o-mnie" class="navigation__link">O mnie</a>
+                <li class="navigation__item">
+                    <a href="#ciekawostki" class="navigation__link">Ciekawostki</a>
+                <li class="navigation__item">
+                    <a href="#kontakt" class="navigation__link">kontak e-mail</a>
+                </li>
+            </ul>
+            <button class="header__button js-button">Zmień <span class="js-themeName">motyw</span></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="o-mnie"></section>
+        <img width="230" height="300" src="https://i.postimg.cc/fLYwHfsm/Photo.jpg" alt="Maciej Konitz">
+        <h1><span class="header__name">Maciej Konitz</span></h1>
+        <div class="o-mnie"></div>
+        <article class="article">
+        <h2><span class="article__title">O mnie</span></h2>
+        <p class="article__abouteMe">
+            Mam na imie Maciej i mam 32 lata. Z zawodu jestem nauczyiel wychowania fizycznego i
+            chciałbym <br>
+            <b>się
+                przebranżowić i zmienić zawód jako programista</b> ,dlatego <i>jestem w kursie IT.</i>
+            <em> Nie wyobrażam sobie</em> nie spróbować swoich sił w waszym kursie. Interesuje się także
+            dietą, piłką nożną, lubię słuchać muzyki, chodzę na spacer do lasu,czytam książki o tematyce
+            rozwoju osobistego. Przeważnie na temat <strong> innych wszechświatach, różnych cywilizacji
+                pozaziemskich oraz historii i tajemnicach ziemi.</strong>
+        </p>
+        </article>
+        <div id="ciekawostki"></div>
+        <article class="article">
+            <section id="article__curiosity"></section>
+
+            <h3><span class="article__curiosity">Ciekawostka</span></h3>
+            <p class="article__scientific">
+                W zależności od wymiaru rzeczywistości oraz punktu widzenia z innego wszechświata ziemia będzia
+                miała inny kształt więc nie zawsze jest okrągła :) Jak to napisała Anna Głowacz;
+                ,,Co by się stało, gdyby została przed Tobą otwarta cała zatajana
+                dotychczas wiedza dotycząca historii Ziemi i ludzkiej cywilizacji. Czy wiedza ta mogłaby
+                wpłynąć na to w jaki spoób postrzegasz świat?"
+            </p>
+        </article>
+
+        <h4><span class="book"> Moje ulubione ksiązki:</span></h4>
+
+        <ul>
+            <li class="book__favorite">Anna Głowacz pt. <em>,,Gwiezdne dzieci":</em>
+            <li class="book__favorite--part">,,Świadomość cz.I"</li>
+            <li class="book__favorite--part">,,Przebudzenie cz.II"</li>
+            <li class="book__favorite--part">,,Era światła cz.III"</li>
+        </ul>
+
+
+        <a rel="noreferrer noopener" target="_blank" class="starchildren"
+            href="https://www.gwiezdnedzieci.com/">Gwiezdne
+            dzieci więcej na temat książki
+            (otwiera się w nowej karcie)</a>
+        <a href="https://www.gwiezdnedzieci.com/">Gwiezdne dzieci - nieodwiedzony</a>
+
+
+
+        <table class="table">
+            <caption>Moje polecane książki</caption>
+            <thead>
+                <tr class="table__row">
+                    <th class="table__cell--header" scope="col">Autor</th>
+                    <th class="table__cell--header" scope="col">Tytuł</th>
+                    <th class="table__cell--header" scope="col">Rok wydania</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                <tr class="table__row">
+                    <th class="table__cell" scope="row">Anna Głowacz</th>
+                    <td class="table__cell">,,Świadomość"<br>,,Przebudzenie"<br>,,Era światła"
+                    </td>
+                    <td class="table__cell">2021</td>
+                </tr>
+
+
+                <tr class="table__row">
+                    <th class="table__cell" scope="row">Joseph Murphy</th>
+                    <td class="table__cell"><em>,,Potega podświadomości"</em></td>
+                    <td class="table__cell">1996</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell" scope="row">Viktor E. Frankl</th>
+                    <td class="table__cell"><em>,,Człowiek w poszukiwaniu sensu"</em></td>
+                    <td class="table__cell">2015</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell" scope="row" colspan="3"></th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <div id="kontakt"></div>
+            <footer class="footer">kontakt e-mail:
+   <a href="mailto:maciej.konitz@wp.pl">maciej.konitz@wp.pl</a>
+            </footer>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+
+.navigation {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigation__item {
+    margin: 3px;
+}
+
+.navigation__link {
+    text-shadow: 1px 1px 2px hsl(0, 0%, 0%), 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font: 1.5em Georgia, serif;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: #B8B8D1;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: hsl(240, 72%, 40%);
+
+}
+
+.curiosity {
+    color: white;
+    background: #B8B8D1;
+    border-radius: 8px 10px 10px 10px;
+    font: 0.9em Georgia, serif;
+    font-size: 25px;
+}
+
+.starchildren {
+    background: #B8B8D1;
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    border-radius: 8px 10px 10px 10px;
+}
+
+
+.starchildren:focus {
+    outline: 2px rgb(0, 0, 0);
+}
+
+.starchildren:hover {
+    color: rgb(0, 82, 247);
+    outline: none;
+}
+
+.book {
+    color: white;
+    background: #8c8cb7;
+    margin: 57px 6px;
+    border-radius: 6px 6px 6px 6px;
+    font: 0.9em Georgia, serif;
+    font-size: 25px;
+}
+
+.book__favorite {
+    margin: 20px;
+    padding: 0px;
+}
+
+.book__favorite--part {
+    margin: 5px;
+    font-style: italic;
+}

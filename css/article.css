@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.article__title {
+    color: white;
+    max-width: 999px;
+    background: #8c8cb7;
+    margin: 57px 6px;
+    text-shadow: 19px 7px 18px grey;
+    border-radius: 6px 6px 6px 6px;
+    font: 0.9em Georgia, serif;
+    font-size: 25px;
+}
+
+.article__abouteMe {
+    color: white;
+    max-width: 999px;
+    background: #B8B8D1;
+    margin: 25px 0;
+    text-shadow: 13px 7px 18px grey;
+    border-radius: 6px 6px 6px 6px;
+    font-family: 0, 9em Garamond, serif;
+}
+
+.article__curiosity {
+    color: white;
+    max-width: 999px;
+    background: #8c8cb7;
+    margin: 57px 6px;
+    text-shadow: 19px 7px 18px grey;
+    border-radius: 6px 6px 6px 6px;
+    font: 0.9em Georgia, serif;
+    font-size: 25px;
+}
+
+.article__scientific {
+    color: white;
+    max-width: 999px;
+    background: #B8B8D1;
+    margin: 25px 0;
+    text-shadow: 13px 7px 18px grey;
+    border-radius: 6px 6px 6px 6px;
+    font-family: 0, 9em Garamond, serif;
+}

@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.footer {
+    background-color: #B8B8D1;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
