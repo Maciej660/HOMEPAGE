@@ -1,7 +1,18 @@
-## Maciej Konitz
-## Moja pierwsza strona
-## *Witam*
-![Maciej Konitz](https://i.postimg.cc/fLYwHfsm/Photo.jpg)
-### *Opis*
+## Maciej Konitz 
+## My first page 
+## *Hello* 
+! [Maciej Konitz] (https://i.postimg.cc/fLYwHfsm/Photo.jpg)
 
-#### Chciałem zaprexentoać moją pierwszą stronę o sobie. W tym moim projekcie są informację o mnie ( moje zainteresowania, hobby, moja kariera zawodowa oraz dlaczego zainteresowałem się tematyką IT. Dodatkowo napisałem kilka istotnych ciekawostek, które przybliżą wam tematykę, którą obecnie się interesuję.  
+### *Website description* 
+
+#### I wanted to prexentoać my first page about myself. In this project of mine there is information about me (my interests, hobbies, my professional career and why I became interested in IT. In addition, I wrote some important curiosities that will bring you closer to the subject that I am currently interested in.  
+
+### Technologies used in my project
+## HTML
+## Java Script
+## CSS
+## BEM convention
+## Normalize
+## GIT
+## Markdown
+## Codepen
