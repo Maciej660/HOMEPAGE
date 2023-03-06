@@ -1,7 +1,7 @@
 ## Maciej Konitz 
 ## My first page 
 ## *Hello* 
-! [Maciej Konitz] (https://i.postimg.cc/fLYwHfsm/Photo.jpg)
+! [Maciej Konitz](https://i.postimg.cc/fLYwHfsm/Photo.jpg)
 
 ### *Website description* 
 
