@@ -12,11 +12,11 @@
 ### https://maciej660.github.io/homepage/
 
 ### Technologies used in my project
-## HTML
-## Java Script
-## CSS
-## BEM convention
-## Normalize
-## GIT
-## Markdown
-## Codepen
+#### HTML
+#### Java Script
+#### CSS
+#### BEM convention
+#### Normalize
+#### GIT
+#### Markdown
+#### Codepen
